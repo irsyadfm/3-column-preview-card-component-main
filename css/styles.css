@@ -1,0 +1,103 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 0.7rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.2rem;
+  margin-bottom: 60px;
+}
+
+section{
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+
+  flex-direction: row;
+  width: 615px;
+}
+
+img{
+  height: 28px;
+}
+
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+  text-align: left;
+  padding: 25px;
+}
+
+.suv{
+  background-color: hsl(184, 100%, 22%);
+  text-align: left;
+  padding: 25px;
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+  text-align: left;
+  padding: 25px;
+
+}
+
+button{
+  font-size: 0.7rem;
+  font-family: 'Lexend Deca', sans-serif;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  mix-blend-mode: screen;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+
+  section{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+  }
+
+  p{
+    margin-bottom: 15px;
+  }
+  .sedan{
+    border-radius: 5px 5px 0 0;
+
+  }
+
+  .luxury{
+    border-radius: 0 0 5px 5px;
+  }
+}
